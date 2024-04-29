@@ -12,11 +12,11 @@ const UserDetails = () => {
     axios(url + id)
       .then((res) => {
         if (res.status === 200) {
-          SetUser(res.data);
+          setUser(res.data);
         }
       })
       .catch((err) => {
-        setUser({ error: 'vfdvddf' });
+        setUser({ error: 'Error var' });
       });
   }, []);
 
