@@ -23,11 +23,11 @@ const Cards = () => {
     <div className="container">
       <div className="row row-cols-1 row-cols-md-2 g-4">
         {data.map(({ id, name, username, email, address }) => (
-          <Card key={id} name={name} username={username} email={email} address={address.street}/>
+          <Card key={id} name={name} username={username} email={email} address={address.street} />
         ))}
       </div>
     </div>
-  ); 
+  );
 };
 
 export default Cards;
