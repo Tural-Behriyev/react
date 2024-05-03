@@ -5,4 +5,4 @@ export const NavbarLinks = [
   { id: 3, title: "Pricing", to: "/pricing" },
   { id: 4, title: "FAQ", to: "/faq" },
   { id: 5, title: "Blog", to: "/blog" },
-];
+]; 

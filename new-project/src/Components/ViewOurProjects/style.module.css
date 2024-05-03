@@ -1,0 +1,20 @@
+.ViewOurProjects {
+  padding-top: 100px;
+}
+
+.ViewOurProjects .title {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: left;
+  color: #282938;
+}
+
+.ViewMore {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 79px;;
+  color: #282938
+}

@@ -14,9 +14,11 @@ const Banner = ({ title, subTitle, ourWorkBtnName, img, pricingBtnName = false }
             <Link className={styles.ourWorkBtn} to="/">
               {ourWorkBtnName}
             </Link>
-            {pricingBtnName && <Link className={styles.pricingBtn} to="/">
-              View Pricing <HiOutlineArrowLongRight />
-            </Link>}
+            {pricingBtnName && (
+              <Link className={styles.pricingBtn} to="/">
+                View Pricing <HiOutlineArrowLongRight />
+              </Link>
+            )}
           </div>
           <div className="col col-md-6">
             <img src={img} alt="" />

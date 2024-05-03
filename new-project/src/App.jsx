@@ -3,7 +3,9 @@ import WebRoutes from "./Components/WebRoutes";
 
 const App = () => {
   return (
-    <WebRoutes/>
+    <>
+      <WebRoutes />
+    </>
   );
 };
 
