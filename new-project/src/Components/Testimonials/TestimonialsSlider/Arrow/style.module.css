@@ -1,0 +1,28 @@
+.next,.prev {
+  display: inline;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10%;
+  font-size: 25px;
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 70%;
+}
+
+.next:hover, .prev:hover {
+  color: red;
+}
+
+.hovered {
+  border: 1px solid black;
+}
+
+.clicked {
+  border-radius: 50%;
+  background-color: blue;
+}

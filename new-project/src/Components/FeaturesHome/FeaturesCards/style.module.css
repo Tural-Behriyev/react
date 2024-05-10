@@ -1,0 +1,20 @@
+.cardsTitle {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+}
+
+.cardsText {
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  width: 324.08px;
+  height: 112px;
+}
+
+.cards{
+    margin: 5px;
+}

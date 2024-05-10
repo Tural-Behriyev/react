@@ -5,8 +5,6 @@ import Icon4 from "/Icon-4.svg";
 import Icon5 from "/Icon-5.svg";
 import Icon6 from "/Icon-6.svg";
 
-
-
 export const FeaturesCardsData = [
   {
     img: Icon1,
