@@ -1,0 +1,18 @@
+.title {
+  width: 328px;
+  height: 112px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.subTitle {
+  width: 220px;
+  height: 32px;
+  font-family: Poppins;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: left;
+  color: #2405F2;
+}
