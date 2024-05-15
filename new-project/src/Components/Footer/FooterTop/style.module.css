@@ -1,0 +1,45 @@
+.FooterTop {
+  background-color: #1c1e53;
+  height: 397px;
+  font-family: Poppins;
+  position: relative;
+}
+
+.logo {
+  padding-top: 120px;
+}
+
+.leftSideText, .rightSideText {
+  color: white;
+  width: 399px;
+  height: 56px;
+  opacity: 80%;
+}
+
+.yellowSide {
+  background-color: #fcd980;
+  position: absolute;
+  bottom: 0;
+  width: 517px;
+  height: 95px;
+}
+
+.email,
+.call {
+  color: #282938 !important;
+  font-weight: 500;
+  opacity: 1 !important;
+}
+
+.website,
+.number {
+  color: #282938 !important;
+  font-weight: 400;
+  opacity: 1 !important;
+}
+
+.title {
+  color: white;
+  padding-top: 120px;
+  font-size: 48px;
+}

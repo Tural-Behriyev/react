@@ -1,0 +1,54 @@
+form {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 17px;
+  margin-bottom: 15px !important;
+  outline: none;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid #7b7c9d;
+}
+
+.btn {
+  background-color: #fcd980;
+  border-radius: 41px;
+  width: 100%;
+  padding: 17px;
+  font-family: Poppins;
+  font-size: 18px;
+}
+
+input:focus {
+  border: 1px solid #0c8ce9;
+}
+
+.BuildingStallerRight {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.forumText {
+  color: white;
+  font-family: Poppins;
+}
+
+.forumText h5 {
+  font-size: 32px;
+}
+
+.forumText p {
+  width: 432px;
+  height: 56px;
+}
+
+.link {
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  padding-top: 30px;
+}
