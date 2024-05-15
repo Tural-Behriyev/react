@@ -9,7 +9,8 @@
   padding-top: 120px;
 }
 
-.leftSideText, .rightSideText {
+.leftSideText,
+.rightSideText {
   color: white;
   width: 399px;
   height: 56px;
@@ -44,9 +45,11 @@
   font-size: 48px;
 }
 
-.icons{
-    margin-top: 70px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
+.icons {
+  margin-top: 70px;
+}
+
+.icons svg {
+  margin: 10px;
+  color: white !important;
 }

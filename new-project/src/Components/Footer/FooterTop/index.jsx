@@ -5,8 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-
-
+import { Link } from "react-router-dom";
 
 const FooterTop = () => {
   return (
@@ -38,10 +37,18 @@ const FooterTop = () => {
               <h2 className={styles.title}>Lets Talk!</h2>
               <p className={`${styles.rightSideText} pt-4`}>We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
               <div className={styles.icons}>
-                <FaFacebook />
-                <FaTwitter />
-                <FaInstagram />
-                <FaLinkedin />
+                <Link>
+                  <FaFacebook />
+                </Link>
+                <Link>
+                  <FaTwitter />
+                </Link>
+                <Link>
+                  <FaInstagram />
+                </Link>
+                <Link>
+                  <FaLinkedin />
+                </Link>
               </div>
             </div>
           </div>
